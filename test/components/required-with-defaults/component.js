@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unused-prop-types, react/require-default-props */
+/* eslint-disable react/no-unused-prop-types, react/require-default-props, react/default-props-match-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 
