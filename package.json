@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "Contributors",
+    "url": "https://github.com/automated-tools/plugin-jest/graphs/contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/automated-tools/plugin-jest/issues"
+  },
+  "description": "Jest plugin for automated",
+  "files": [
+    "collection-will-start",
+    "dist"
+  ],
+  "homepage": "https://github.com/automated-tools/plugin-jest",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "name": "@automated/plugin-permutations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automated-tools/plugin-jest.git"
+  },
+  "scripts": {
+    "build:prod": "NODE_ENV=production webpack",
+    "build:watch": "webpack --watch",
+    "build": "webpack",
+    "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
+    "publish": "npm publish --access public"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.1.4",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.0",
+    "filepath-to-title": "^0.1.12",
+    "jest": "^21.2.1",
+    "react": "^16.0.0",
+    "react-component-permutations": "^1.0.0-beta2",
+    "react-dom": "^16.0.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1"
+  }
+}
