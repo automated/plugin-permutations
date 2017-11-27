@@ -1,10 +1,6 @@
-# Jest Plugin for [Automated](https://github.com/automated-tools/automated)
+# React Prop Permutations for [Automated](https://github.com/automated-tools/automated)
 
-[![npm version](https://badge.fury.io/js/%40automated%2Fplugin-jest.svg)](https://badge.fury.io/js/%40automated%2Fplugin-jest)
-[![Greenkeeper badge](https://badges.greenkeeper.io/automated-tools/plugin-jest.svg)](https://greenkeeper.io/)
-[![devDependencies Status](https://david-dm.org/automated-tools/plugin-jest/dev-status.svg)](https://david-dm.org/automated-tools/plugin-jest?type=dev)
-[![CircleCI](https://circleci.com/gh/automated-tools/plugin-jest.svg?style=svg)](https://circleci.com/gh/automated-tools/plugin-jest)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fautomated-tools%2Fplugin-jest.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fautomated-tools%2Fplugin-jest?ref=badge_shield)
+Generate React component use-cases with prop permutations.
 
 # What it does
 

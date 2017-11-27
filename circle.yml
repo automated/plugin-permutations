@@ -8,6 +8,6 @@ jobs:
       - checkout
       - run: yarn
       - run: yarn lint
-      - run: yarn build:prod
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: npm run publish
+      # - run: yarn build:prod
+      # - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      # - run: npm run publish
