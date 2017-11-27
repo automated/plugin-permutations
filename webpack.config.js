@@ -6,7 +6,7 @@ const isProd = NODE_ENV === 'production';
 
 module.exports = Object.assign(
   {
-    entry: './lib/runner/index.js',
+    entry: './lib/generator/index.js',
     module: {
       rules: [
         {
